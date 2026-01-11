@@ -8,8 +8,8 @@
 
 name: Build OpenWrt
 
-on: 
-  repository_dispatch:
+于: 
+  workflow_dispatch:
 
 env:
   REPO_TOKEN: ${{ secrets.TOKEN_KIDDIN9 }}
